@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</head>
+<body>
+    <h1>INDEX</h1>
+    <script>
+        $.ajax({
+            url: '/public/json/test.json',
+            type: 'get',
+            dataType: 'json',
+            success: data => {
+                console.log(data);
+            }
+        });
+    </script>
+</body>
+</html>
