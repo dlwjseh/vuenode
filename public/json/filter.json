@@ -1,0 +1,871 @@
+{
+  "categories": [
+    {
+      "category_code": 101,
+      "category_name": "디자인문구",
+      "row_list": [
+        {
+          "category_code": 101102,
+          "category_name": "다이어리/플래너"
+        },
+        {
+          "category_code": 101103,
+          "category_name": "노트/메모지"
+        },
+        {
+          "category_code": 101107,
+          "category_name": "데코레이션"
+        },
+        {
+          "category_code": 101104,
+          "category_name": "필기류/필통"
+        },
+        {
+          "category_code": 101105,
+          "category_name": "카드/편지/봉투"
+        },
+        {
+          "category_code": 101110,
+          "category_name": "파일/바인더"
+        },
+        {
+          "category_code": 101108,
+          "category_name": "사무용품"
+        },
+        {
+          "category_code": 101109,
+          "category_name": "데스크 정리/보관"
+        },
+        {
+          "category_code": 101112,
+          "category_name": "캐릭터 문구"
+        },
+        {
+          "category_code": 101111,
+          "category_name": "미술도구"
+        },
+        {
+          "category_code": 101113,
+          "category_name": "BOOK"
+        }
+      ]
+    },
+    {
+      "category_code": 102,
+      "category_name": "디지털/핸드폰",
+      "row_list": [
+        {
+          "category_code": 102101,
+          "category_name": "애플 케이스"
+        },
+        {
+          "category_code": 102102,
+          "category_name": "갤럭시 케이스"
+        },
+        {
+          "category_code": 102104,
+          "category_name": "스마트기기 주변기기"
+        },
+        {
+          "category_code": 102108,
+          "category_name": "PC/노트북 주변기기"
+        },
+        {
+          "category_code": 102107,
+          "category_name": "음향기기"
+        },
+        {
+          "category_code": 102110,
+          "category_name": "USB/외장하드"
+        },
+        {
+          "category_code": 102103,
+          "category_name": "스마트폰 케이스"
+        }
+      ]
+    },
+    {
+      "category_code": 104,
+      "category_name": "토이/취미",
+      "row_list": [
+        {
+          "category_code": 104101,
+          "category_name": "피규어"
+        },
+        {
+          "category_code": 104105,
+          "category_name": "인형"
+        },
+        {
+          "category_code": 104118,
+          "category_name": "DIY키트"
+        },
+        {
+          "category_code": 104120,
+          "category_name": "레저/스포츠"
+        },
+        {
+          "category_code": 104117,
+          "category_name": "자동차/자전거"
+        },
+        {
+          "category_code": 104110,
+          "category_name": "캐릭터/웹툰"
+        },
+        {
+          "category_code": 104109,
+          "category_name": "조립/퍼즐"
+        },
+        {
+          "category_code": 104107,
+          "category_name": "장난감"
+        },
+        {
+          "category_code": 104108,
+          "category_name": "보드게임"
+        },
+        {
+          "category_code": 104113,
+          "category_name": "파티용품"
+        },
+        {
+          "category_code": 104106,
+          "category_name": "모형/RC"
+        },
+        {
+          "category_code": 104116,
+          "category_name": "어덜트/우먼"
+        },
+        {
+          "category_code": 104119,
+          "category_name": "클래스"
+        }
+      ]
+    },
+    {
+      "category_code": 124,
+      "category_name": "디자인가전",
+      "row_list": [
+        {
+          "category_code": 124106,
+          "category_name": "오븐/토스터/에어프라이어"
+        },
+        {
+          "category_code": 124108,
+          "category_name": "밥솥/쿠커/메이커"
+        },
+        {
+          "category_code": 124110,
+          "category_name": "가습기/제습기"
+        },
+        {
+          "category_code": 124111,
+          "category_name": "생활가전"
+        }
+      ]
+    },
+    {
+      "category_code": 121,
+      "category_name": "가구/수납",
+      "row_list": [
+        {
+          "category_code": 121102,
+          "category_name": "의자"
+        },
+        {
+          "category_code": 121106,
+          "category_name": "테이블"
+        },
+        {
+          "category_code": 121109,
+          "category_name": "1인가구"
+        }
+      ]
+    },
+    {
+      "category_code": 122,
+      "category_name": "데코/조명",
+      "row_list": [
+        {
+          "category_code": 122114,
+          "category_name": "조명/스탠드"
+        },
+        {
+          "category_code": 122101,
+          "category_name": "시계"
+        },
+        {
+          "category_code": 122104,
+          "category_name": "그림"
+        },
+        {
+          "category_code": 122106,
+          "category_name": "디퓨저/방향제/스프레이"
+        },
+        {
+          "category_code": 122111,
+          "category_name": "식물"
+        },
+        {
+          "category_code": 122115,
+          "category_name": "플라워"
+        },
+        {
+          "category_code": 122109,
+          "category_name": "DIY/데코소품"
+        },
+        {
+          "category_code": 122107,
+          "category_name": "모빌/가랜드/홈파티"
+        }
+      ]
+    },
+    {
+      "category_code": 120,
+      "category_name": "패브릭/생활",
+      "row_list": [
+        {
+          "category_code": 120101,
+          "category_name": "침구"
+        },
+        {
+          "category_code": 120102,
+          "category_name": "커튼"
+        },
+        {
+          "category_code": 120103,
+          "category_name": "카페트/러그"
+        },
+        {
+          "category_code": 120106,
+          "category_name": "패브릭소품"
+        },
+        {
+          "category_code": 120105,
+          "category_name": "방석/쇼파패드"
+        },
+        {
+          "category_code": 120104,
+          "category_name": "쿠션"
+        },
+        {
+          "category_code": 120114,
+          "category_name": "생활용품"
+        },
+        {
+          "category_code": 120110,
+          "category_name": "욕실"
+        },
+        {
+          "category_code": 120111,
+          "category_name": "홈케어"
+        }
+      ]
+    },
+    {
+      "category_code": 112,
+      "category_name": "키친",
+      "row_list": [
+        {
+          "category_code": 112117,
+          "category_name": "유리컵"
+        },
+        {
+          "category_code": 112101,
+          "category_name": "컵/텀블러/커피잔"
+        },
+        {
+          "category_code": 112102,
+          "category_name": "식기"
+        },
+        {
+          "category_code": 112103,
+          "category_name": "주방잡화/커트러리"
+        },
+        {
+          "category_code": 112104,
+          "category_name": "조리도구/기구"
+        },
+        {
+          "category_code": 112105,
+          "category_name": "주방수납"
+        },
+        {
+          "category_code": 112116,
+          "category_name": "보관/밀폐용기"
+        },
+        {
+          "category_code": 112108,
+          "category_name": "피크닉/도시락"
+        }
+      ]
+    },
+    {
+      "category_code": 119,
+      "category_name": "푸드",
+      "row_list": [
+        {
+          "category_code": 119104,
+          "category_name": "스낵/견과"
+        }
+      ]
+    },
+    {
+      "category_code": 117,
+      "category_name": "패션의류",
+      "row_list": [
+        {
+          "category_code": 117102,
+          "category_name": "여성 드레스"
+        },
+        {
+          "category_code": 117103,
+          "category_name": "여성 상의"
+        },
+        {
+          "category_code": 117104,
+          "category_name": "여성 하의"
+        },
+        {
+          "category_code": 117106,
+          "category_name": "남성 상의"
+        },
+        {
+          "category_code": 117109,
+          "category_name": "라운지웨어"
+        },
+        {
+          "category_code": 117110,
+          "category_name": "양말"
+        }
+      ]
+    },
+    {
+      "category_code": 116,
+      "category_name": "패션잡화",
+      "row_list": [
+        {
+          "category_code": 116103,
+          "category_name": "우먼 슈즈"
+        },
+        {
+          "category_code": 116101,
+          "category_name": "가방"
+        },
+        {
+          "category_code": 116102,
+          "category_name": "지갑/파우치"
+        },
+        {
+          "category_code": 116110,
+          "category_name": "우산/양산"
+        },
+        {
+          "category_code": 116107,
+          "category_name": "모자/장갑/목도리"
+        },
+        {
+          "category_code": 116108,
+          "category_name": "우먼 패션소품"
+        },
+        {
+          "category_code": 116113,
+          "category_name": "캐리어/여행백"
+        },
+        {
+          "category_code": 116115,
+          "category_name": "여행소품"
+        }
+      ]
+    },
+    {
+      "category_code": 125,
+      "category_name": "주얼리/시계",
+      "row_list": [
+        {
+          "category_code": 125101,
+          "category_name": "반지"
+        },
+        {
+          "category_code": 125102,
+          "category_name": "귀걸이 "
+        },
+        {
+          "category_code": 125103,
+          "category_name": "목걸이"
+        },
+        {
+          "category_code": 125104,
+          "category_name": "팔찌/발찌"
+        },
+        {
+          "category_code": 125108,
+          "category_name": "손목시계"
+        },
+        {
+          "category_code": 125112,
+          "category_name": "골드바/순금"
+        }
+      ]
+    },
+    {
+      "category_code": 118,
+      "category_name": "뷰티",
+      "row_list": [
+        {
+          "category_code": 118105,
+          "category_name": "네일"
+        },
+        {
+          "category_code": 118110,
+          "category_name": "헬스용품"
+        }
+      ]
+    },
+    {
+      "category_code": 115,
+      "category_name": "베이비/키즈",
+      "row_list": [
+        {
+          "category_code": 115107,
+          "category_name": "완구/교구"
+        },
+        {
+          "category_code": 115102,
+          "category_name": "남아 의류"
+        },
+        {
+          "category_code": 115104,
+          "category_name": "패션 잡화"
+        },
+        {
+          "category_code": 115108,
+          "category_name": "목욕/위생/안전용품"
+        },
+        {
+          "category_code": 115111,
+          "category_name": "이유/수유용품"
+        }
+      ]
+    },
+    {
+      "category_code": 110,
+      "category_name": "Cat & Dog",
+      "row_list": [
+        {
+          "category_code": 110109,
+          "category_name": "키친"
+        }
+      ]
+    }
+  ],
+  "brands": {
+    "totalCount": 123,
+    "current_page": 1,
+    "last_page": 2,
+    "brands": [
+      {
+        "brand_id": "nabiya021",
+        "brand_name": "nabiya021"
+      },
+      {
+        "brand_id": "vecen",
+        "brand_name": "verax"
+      },
+      {
+        "brand_id": "peanuts10x10",
+        "brand_name": "PEANUTS"
+      },
+      {
+        "brand_id": "hmnote10",
+        "brand_name": "hmnote"
+      },
+      {
+        "brand_id": "madewellcase",
+        "brand_name": "Oyo & Oly"
+      },
+      {
+        "brand_id": "skaterkorea10",
+        "brand_name": "SKATER KOREA"
+      },
+      {
+        "brand_id": "gelatofactory",
+        "brand_name": "gelatofactory"
+      },
+      {
+        "brand_id": "1010aoi",
+        "brand_name": "PEANUTS select shop"
+      },
+      {
+        "brand_id": "shoopen10",
+        "brand_name": "SHOOPEN"
+      },
+      {
+        "brand_id": "fromfranc",
+        "brand_name": "SONGW0L"
+      },
+      {
+        "brand_id": "lalalahehe",
+        "brand_name": "KIZKIZ"
+      },
+      {
+        "brand_id": "bytori",
+        "brand_name": "Bytori"
+      },
+      {
+        "brand_id": "halatex",
+        "brand_name": "HALAHOME"
+      },
+      {
+        "brand_id": "lloyd10",
+        "brand_name": "LLOYD"
+      },
+      {
+        "brand_id": "kikiworld",
+        "brand_name": "kikiworld"
+      },
+      {
+        "brand_id": "pjhksy77",
+        "brand_name": "Songwol Towel&Living"
+      },
+      {
+        "brand_id": "sonreve01",
+        "brand_name": "SONREVE"
+      },
+      {
+        "brand_id": "stampmamaonline",
+        "brand_name": "Stampmama"
+      },
+      {
+        "brand_id": "twgallery",
+        "brand_name": "towel gallery"
+      },
+      {
+        "brand_id": "1010socks",
+        "brand_name": "Kikiya Socks"
+      },
+      {
+        "brand_id": "jetpens",
+        "brand_name": "JPens"
+      },
+      {
+        "brand_id": "carel",
+        "brand_name": "CAREL"
+      },
+      {
+        "brand_id": "naeu08",
+        "brand_name": "pyrex"
+      },
+      {
+        "brand_id": "towelstory",
+        "brand_name": "Songwol Towelstory"
+      },
+      {
+        "brand_id": "redbee",
+        "brand_name": "Redbee"
+      },
+      {
+        "brand_id": "zlxldi1679",
+        "brand_name": "kittyya"
+      },
+      {
+        "brand_id": "udf1",
+        "brand_name": "UDF"
+      },
+      {
+        "brand_id": "hplusmall12",
+        "brand_name": "ownerclan"
+      },
+      {
+        "brand_id": "sunstar1010",
+        "brand_name": "sunstar"
+      },
+      {
+        "brand_id": "rinm2351",
+        "brand_name": "DAILYCOMMA"
+      },
+      {
+        "brand_id": "1ppm",
+        "brand_name": "momoya"
+      },
+      {
+        "brand_id": "bookstory10",
+        "brand_name": "bookstory"
+      },
+      {
+        "brand_id": "cmix5040",
+        "brand_name": "WeenyBeeny"
+      },
+      {
+        "brand_id": "lionbooks",
+        "brand_name": "somssi"
+      },
+      {
+        "brand_id": "stereovinyls",
+        "brand_name": "stereovinyls"
+      },
+      {
+        "brand_id": "ddochi7",
+        "brand_name": "BOB(best of best)"
+      },
+      {
+        "brand_id": "hobbyplus01",
+        "brand_name": "hobbyplus"
+      },
+      {
+        "brand_id": "jimshore",
+        "brand_name": "jimshore"
+      },
+      {
+        "brand_id": "ones",
+        "brand_name": "Ones"
+      },
+      {
+        "brand_id": "sum1",
+        "brand_name": "SUMMALL"
+      },
+      {
+        "brand_id": "schleich",
+        "brand_name": "Schleich"
+      },
+      {
+        "brand_id": "hnfriends",
+        "brand_name": "C.TORY"
+      },
+      {
+        "brand_id": "royche",
+        "brand_name": "ROYCHE"
+      },
+      {
+        "brand_id": "kallka",
+        "brand_name": "ALKONGDANZAM"
+      },
+      {
+        "brand_id": "disney10x10",
+        "brand_name": ""
+      },
+      {
+        "brand_id": "heidenei",
+        "brand_name": "HEIDENEI!"
+      },
+      {
+        "brand_id": "sn10x10",
+        "brand_name": "S & GARDEN"
+      },
+      {
+        "brand_id": "madewell_case",
+        "brand_name": "madewellcase"
+      },
+      {
+        "brand_id": "castpuzzle",
+        "brand_name": "EurekaPuzzle"
+      },
+      {
+        "brand_id": "globeekorea",
+        "brand_name": "Purple Ocean"
+      },
+      {
+        "brand_id": "dreamtec",
+        "brand_name": "ilyang"
+      },
+      {
+        "brand_id": "soogunnet",
+        "brand_name": "songwol towel"
+      },
+      {
+        "brand_id": "thewhy",
+        "brand_name": "thewhy"
+      },
+      {
+        "brand_id": "storinus10",
+        "brand_name": "STORINUS"
+      },
+      {
+        "brand_id": "snoopy10x10",
+        "brand_name": "SNOOPY"
+      },
+      {
+        "brand_id": "carnfun",
+        "brand_name": "Car&Fun"
+      },
+      {
+        "brand_id": "lambrand",
+        "brand_name": "LAMBRAND"
+      },
+      {
+        "brand_id": "etonet1010",
+        "brand_name": "10x10 SELECT"
+      },
+      {
+        "brand_id": "songwoltowelkorea",
+        "brand_name": "songwol towel"
+      },
+      {
+        "brand_id": "disneyzone",
+        "brand_name": "characterzone"
+      },
+      {
+        "brand_id": "skaterkorea1010",
+        "brand_name": "skaterkorea"
+      },
+      {
+        "brand_id": "peanuts01",
+        "brand_name": "Peanuts Bag&Acc"
+      },
+      {
+        "brand_id": "ansbrick",
+        "brand_name": "Ansbrick Korea Corp."
+      },
+      {
+        "brand_id": "daiwon",
+        "brand_name": "DAEWON"
+      },
+      {
+        "brand_id": "tsubame1010",
+        "brand_name": "TSUBAME NOTE"
+      },
+      {
+        "brand_id": "onishi1010",
+        "brand_name": "PEANUTS select shop"
+      },
+      {
+        "brand_id": "2y",
+        "brand_name": "2Y"
+      },
+      {
+        "brand_id": "4xtyle",
+        "brand_name": "4xtyle"
+      },
+      {
+        "brand_id": "puzzlesarang",
+        "brand_name": "puzzlesarang"
+      },
+      {
+        "brand_id": "puzzlegallery01",
+        "brand_name": "puzzlegallery"
+      },
+      {
+        "brand_id": "baseus",
+        "brand_name": "baseus korea"
+      },
+      {
+        "brand_id": "subaco",
+        "brand_name": "SUBACO"
+      },
+      {
+        "brand_id": "givenzone",
+        "brand_name": "GivenzoneDolls"
+      },
+      {
+        "brand_id": "morethanbetter",
+        "brand_name": "MORE THAN BETTER"
+      },
+      {
+        "brand_id": "disney1010",
+        "brand_name": "DISNEY SELECT SHOP"
+      },
+      {
+        "brand_id": "cheuda",
+        "brand_name": "cheudakitchen"
+      },
+      {
+        "brand_id": "subacoclub",
+        "brand_name": "SUBACO_CLUB"
+      },
+      {
+        "brand_id": "stupid03",
+        "brand_name": "stupid"
+      },
+      {
+        "brand_id": "betago",
+        "brand_name": "BETAGO"
+      },
+      {
+        "brand_id": "adullamint01",
+        "brand_name": "Health & beauty 24"
+      },
+      {
+        "brand_id": "withpps",
+        "brand_name": "withpeoples"
+      },
+      {
+        "brand_id": "griptok",
+        "brand_name": "Griptok"
+      },
+      {
+        "brand_id": "adret",
+        "brand_name": "adret"
+      },
+      {
+        "brand_id": "likotd",
+        "brand_name": "likotd"
+      },
+      {
+        "brand_id": "designlatte",
+        "brand_name": "DESIGN LATTE"
+      },
+      {
+        "brand_id": "rabbithole1",
+        "brand_name": "rabbithole"
+      },
+      {
+        "brand_id": "hyundaipp",
+        "brand_name": "Hyundai Paper"
+      },
+      {
+        "brand_id": "weprime08",
+        "brand_name": "WEPRIME"
+      },
+      {
+        "brand_id": "dspace1",
+        "brand_name": "DESIGN SPACE"
+      },
+      {
+        "brand_id": "joyparty10x10",
+        "brand_name": "partypang"
+      },
+      {
+        "brand_id": "nooritoys",
+        "brand_name": "nooritoys"
+      },
+      {
+        "brand_id": "mirkorea1",
+        "brand_name": "MIR KITCHEN"
+      },
+      {
+        "brand_id": "trendmecca",
+        "brand_name": "TRENDMECCA"
+      },
+      {
+        "brand_id": "creativecrew",
+        "brand_name": "godshop"
+      },
+      {
+        "brand_id": "banharu",
+        "brand_name": "banharu"
+      },
+      {
+        "brand_id": "uwin",
+        "brand_name": "NINE `O CLOCK"
+      },
+      {
+        "brand_id": "bonappetit1010",
+        "brand_name": "bon appetit"
+      },
+      {
+        "brand_id": "mypinkroad3",
+        "brand_name": "mypinkroad"
+      },
+      {
+        "brand_id": "jinrida1",
+        "brand_name": "byrabbitproject"
+      },
+      {
+        "brand_id": "pabobo01",
+        "brand_name": "pabobo"
+      }
+    ]
+  },
+  "min_price": 500,
+  "max_price": 792000
+}
