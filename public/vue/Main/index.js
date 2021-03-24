@@ -23,40 +23,37 @@ const app = new Vue({
             </div>
 
             <!-- 최근 검색어 -->
-            <div class="srch_kwd_list type1">
+            <div v-if="recent_keywords.length > 0" class="srch_kwd_list type1">
                 <h2>최근 검색어</h2>
                 <ul>
                     <li v-for="keyword in recent_keywords">
                         <a>{{keyword.keyword}}</a>
                     </li>
                 </ul>
-                <button class="btn_reset">모두 지우기</button>
+                <button class="btn_reset" @click="recent_keywords = [];">모두 지우기</button>
             </div>
 
             <!-- 인기검색어 -->
-            <div class="srch_kwd_list type2">
+            <div v-if="best_keywords.totalCount" class="srch_kwd_list type2">
                 <h2>많이 찾고 있어요 👀</h2>
                 <ul>
-                    <li><a>필통</a></li>
-                    <li><a>운동화</a> <span class="label">hot</span></li>
-                    <li><a>아기용품</a> </li>
-                    <li><a>아이폰11프로 케이스</a> </li>
-                    <li><a>에코백</a> </li>
-                    <li><a>15인치노트북파우치</a> <span class="label">hot</span></li>
-                    <li><a>마우스패드</a> <span class="label">hot</span></li>
-                    <li><a>그립톡</a> </li>
-                    <li><a>아이폰케이스</a> <span class="label">hot</span></li>
-                    <li><a>1인용쇼파</a> <span class="label">new</span></li>
+                    <li v-for="bk in best_keywords.keywords">
+                        <a>{{bk.keyword}}</a>
+                        <span v-if="bk.tag.startsWith('+') && Number(bk.tag.substr(1)) > 100" class="label">hot</span>
+                        <span v-if="bk.tag === 'new'" class="label">new</span>
+                    </li>
                 </ul>
             </div>
         </div>
     `,
     data() {return {
         search_keyword : '', // 검색어
-        recent_keywords : [] // 최근 검색어 리스트
+        recent_keywords : [], // 최근 검색어 리스트
+        best_keywords : {} // 인기검색어 리스트
     }},
     created() {
-        this.get_recent_keywords();
+        this.get_recent_keywords(); // 최근 키워드 json데이터 가져오기
+        this.get_best_keywords(); // 인기 검색어 json데이터 가져오기
     },
     methods : {
         /**
@@ -74,10 +71,23 @@ const app = new Vue({
          */
         enter_search_keyword(e) {
             if( this.search_keyword.trim() !== '' ) { // 빈 문자열이 아닐 때만 unshift
-                if( this.recent_keywords.length >= 4 ) { // 4개 이상이면 마지막꺼 날림
-                    this.recent_keywords.pop();
+                const keyword = this.search_keyword.trim();
+
+                let is_have = false;
+                this.recent_keywords.forEach(rk => {
+                    is_have = is_have || (rk.keyword === keyword);
+                });
+                // 이미 최근 검색어에 있으면
+                if( is_have ) {
+                    this.recent_keywords = this.recent_keywords.filter(e => e.keyword !== keyword);
+                    this.recent_keywords.unshift({'keyword' : this.search_keyword});
+                // 없으면
+                } else {
+                    if( this.recent_keywords.length >= 4 ) { // 4개 이상이면 마지막꺼 날림
+                        this.recent_keywords.pop();
+                    }
+                    this.recent_keywords.unshift({'keyword' : this.search_keyword});
                 }
-                this.recent_keywords.unshift({'keyword' : this.search_keyword});
             }
             this.clear_search_keyword(e.target); // 검색어 초기화
         },
@@ -89,7 +99,10 @@ const app = new Vue({
             input.value = '';
             this.search_keyword = '';
         },
-        
+
+        /**
+         * 최근 키워드 json데이터 가져오기
+         */
         get_recent_keywords() {
             const _this = this;
             $.ajax({
@@ -100,7 +113,23 @@ const app = new Vue({
                     _this.recent_keywords = data;
                 },
                 error : e => console.log(e)
-            })
+            });
+        },
+
+        /**
+         * 인기 검색어 json데이터 가져오기
+         */
+        get_best_keywords() {
+            const _this = this;
+            $.ajax({
+                url: '/public/json/best_keywords.json',
+                type: 'get',
+                dataType : 'json',
+                success: data => {
+                    _this.best_keywords = data;
+                },
+                error : e => console.log(e)
+            });
         }
     }
 });
